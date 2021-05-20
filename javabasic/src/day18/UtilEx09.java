@@ -1,0 +1,15 @@
+package day18;
+/*
+나라와 수도 맞추기 게임을 만들어 보세요. 
+1) UtilEx08문제를 HashMap<String, String>을 이용하여 작성하세요. 
+	Key는 나라이름이고, Value는 수도입니다.
+
+*/
+public class UtilEx09 {
+	public static void main(String[] args) {
+		/*
+		CapitalGame game = new CapitalGame();
+		game.run();
+		*/
+	}
+}

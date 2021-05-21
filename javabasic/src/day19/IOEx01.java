@@ -34,7 +34,7 @@ public class IOEx01 {
 			System.out.println("\t 파일크기: " + subfile[i].length());
 		}
 		
-		File f3 = new File("d:\\yje\\kor.txt"); // yje까지는 있는거고 그 이후는 이제 만들것이다
+		File f3 = new File("d:\\dandico\\kor.txt"); // dandico까지는 있는거고 그 이후는 이제 만들것이다
 		try {
 			f3.createNewFile(); // 외부에 있는걸 할때는 예외처리 강제로 하는것이 많음, 자바에서 건들일 수 있는 영역이 아니기 때문에
 		}catch(IOException e) {

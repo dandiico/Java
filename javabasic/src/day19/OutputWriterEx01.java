@@ -36,12 +36,6 @@ public class OutputWriterEx01 {
 			
 		}
 		
-		
-		
-		
-		
-		
-		
 	}
 
 }

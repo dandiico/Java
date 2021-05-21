@@ -20,7 +20,6 @@ class ThEx02 implements Runnable{
 	}
 }
 public class ThreadEx04 {
-
 	
 	public static void main(String[] args) {
 		ThEx01 t1 = new ThEx01(); // THread 상속

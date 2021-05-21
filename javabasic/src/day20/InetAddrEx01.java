@@ -16,7 +16,7 @@ public class InetAddrEx01 {
 			System.out.println(a.getHostName());
 			System.out.println(a.getHostAddress());
 		}
-		System.out.println("===============");
+		System.out.println("==============");
 		
 		String str = "https://post.naver.com/viewer/postView.nhn";
 		URL url = new URL(str);

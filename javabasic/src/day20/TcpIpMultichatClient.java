@@ -29,7 +29,7 @@ public class TcpIpMultichatClient {
 
 	static class ClientSender extends Thread {
 		Socket socket;
-		DataOutputStream out; //������ �������� �ƿ�ǲ��Ʈ�� 
+		DataOutputStream out; //
 		String name;
 					// ������ �������޹ޱ�, ��ȭ�� �ޱ�
 		ClientSender(Socket socket, String name) {

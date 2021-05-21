@@ -16,7 +16,6 @@ class TimeRunnable implements Runnable{
 			}
 		}
 	}
-	
 }
 public class ThreadEx03 {
 

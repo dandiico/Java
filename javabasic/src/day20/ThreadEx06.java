@@ -35,7 +35,6 @@ public class ThreadEx06 {
 		inputTh.start();
 		timeTh.start();
 		
-		
 	}
 
 }

@@ -20,5 +20,4 @@ public class ThreadEx05 {
 		th.start();
 		System.out.println("종료");
 	}
-
 }

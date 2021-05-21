@@ -11,7 +11,7 @@ public class FileOutputEx01 {
 		
 		try {
 			// 파일 출력 스트림 생성
-			FileOutputStream fout = new FileOutputStream("d:\\yje\\test.out");
+			FileOutputStream fout = new FileOutputStream("d:\\dandico\\test.out");
 			// 파일 쓰기
 			for(int i = 0; i<b.length; i++) {
 				fout.write(b[i]);

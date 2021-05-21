@@ -60,7 +60,6 @@ class CapitalGame{
 		nation.add(new Nation("세네갈","다카르"));
 		nation.add(new Nation("스웨덴","스톡홀름"));
 	}
-
 	
 	void input() {
 		System.out.println("현재 " + nation.size() + "개의 나라와 수도가 입력되어 있습니다.");

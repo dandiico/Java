@@ -71,14 +71,15 @@ class CapitalGame{
 			if(input.equals("그만")) {
 				break;
 			}
+			boolean add = true;
 			for(int i =0; i < nation.size(); i++) {
-				if(arr[0].equals(nation.get(i).getCountry())) {
+				if(nation.get(i).getCountry().contains(arr[0])) {
 					System.out.println(arr[0] +"는 이미 있습니다!!");
-					i = nation.size();
+					add = false;
+					break;
 				}
-					nation.add(new Nation (arr[0],arr[1]));
-
 			} //for
+			if(add) nation.add(new Nation (arr[0],arr[1]));
 		} //while
 	}
 
@@ -102,18 +103,25 @@ class CapitalGame{
 				break;
 			}else System.out.println("아닙니다");
 		}
-
+		System.out.println("문제를 전부 풀었습니다.");
 	}
 
 	void run() {
 		System.out.println("** 수도 맞추기 게임 Start **");
 		setting();
+		
 		while(true) {
-		System.out.println("입력:1, 퀴즈:2, 종료:3 >> ");
-		int sel = Integer.parseInt(sc.nextLine());
-		if(sel == 1) input();
-		else if(sel == 2) quiz();
-		else System.out.println("게임을 종료합니다."); break;
+			System.out.println("입력:1, 퀴즈:2, 종료:3 >> ");
+			int sel = Integer.parseInt(sc.nextLine());
+			if(sel == 1) {
+				input();
+			}
+			else if(sel == 2) {
+				quiz();
+			}
+			else {
+				System.out.println("게임을 종료합니다."); break;
+			}
 		}
 
 	}
